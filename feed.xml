@@ -1,4 +1,55 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://chenhaoftk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chenhaoftk.dev/" rel="alternate" type="text/html" /><updated>2020-07-29T01:45:20+08:00</updated><id>https://chenhaoftk.dev/feed.xml</id><title type="html">chenhaoftk’s Blog</title><subtitle>想到什麼就寫什麼。</subtitle><entry><title type="html">感謝 #3</title><link href="https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3.html" rel="alternate" type="text/html" title="感謝 #3" /><published>2020-07-29T00:01:00+08:00</published><updated>2020-07-29T00:01:00+08:00</updated><id>https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3</id><content type="html" xml:base="https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3.html">&lt;p&gt;感謝公司的人體工學家具補助，感謝交通平安，感謝 @Pulu 和 @Machi 的陪伴。&lt;/p&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.8.7">Jekyll</generator><link href="https://chenhaoftk.dev/feed.xml" rel="self" type="application/atom+xml" /><link href="https://chenhaoftk.dev/" rel="alternate" type="text/html" /><updated>2020-09-18T01:04:17+08:00</updated><id>https://chenhaoftk.dev/feed.xml</id><title type="html">chenhaoftk’s Blog</title><subtitle>想到什麼就寫什麼。</subtitle><entry><title type="html">MacBook Pro 心得</title><link href="https://chenhaoftk.dev/2020/09/18/macbook-%E5%BF%83%E5%BE%97.html" rel="alternate" type="text/html" title="MacBook Pro 心得" /><published>2020-09-18T00:48:00+08:00</published><updated>2020-09-18T00:48:00+08:00</updated><id>https://chenhaoftk.dev/2020/09/18/macbook-%E5%BF%83%E5%BE%97</id><content type="html" xml:base="https://chenhaoftk.dev/2020/09/18/macbook-%E5%BF%83%E5%BE%97.html">&lt;p&gt;2017年我買了人生的第一台 MacBook，到這個月剛好滿三年。
+現在 macOS 已經完全取代 Windows 或 Ubuntu，成為我工作和日常主要使用的電腦。&lt;/p&gt;
+
+&lt;p&gt;簡單紀錄一下三年來累積的心得：&lt;/p&gt;
+
+&lt;ol&gt;
+  &lt;li&gt;
+    &lt;p&gt;TrackPad：「我是說在座的各位都是垃圾」&lt;/p&gt;
+
+    &lt;p&gt;不知道為什麼，觸控板這個感覺並不是特別複雜的裝置，Apple 就是硬是做得比別人好用，說是海放所有筆電應該也不為過。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;蝶式鍵盤是個悲劇&lt;/p&gt;
+
+    &lt;p&gt;鍵程短又容易卡塵故障，Apple 近年最為人詬病的設計之一。敲過 2019 Macbook Pro 的剪刀式鍵盤後，我更覺得蝶式鍵盤應該被淘汰了😅&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;要用到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cmd&lt;/code&gt; 的快速鍵都不好按&lt;/p&gt;
+
+    &lt;p&gt;我習慣用「標準」姿勢敲鍵盤，也就是準備動作時雙手食指分別放在 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;F&lt;/code&gt; 和 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;J&lt;/code&gt; 鍵上的打法。
+ 每次要按 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cmd + [a|x|c|v|f]&lt;/code&gt; 的時候我得把大拇指往內凹到 &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Cmd&lt;/code&gt; 的位置。極不符合人體工學，失敗！&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;Unix-like 系統就是讚&lt;/p&gt;
+
+    &lt;p&gt;身為一個軟體工程師，平常使用 ssh 遠端工作也是很合理的。當初之所以決定換電腦，其實就是因為受不了 Windows 又醜又難用的命令列。我還是比較習慣用 Unix-like，在 Mac 上有原生支援，很讚。
+ （在 Mac 之前，我還有用 chromeOS 工作過一段時間，後來因為效能不敷使用才轉手給 @fff）&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;特殊規格不好賣&lt;/p&gt;
+
+    &lt;p&gt;2018年公司要我寫 iOS App，配給我一台 Mac。因為自己的 Mac 被收在櫃子裡沒使用，所以想趁價格好時把它賣了。
+ 沒想到乏人問津。後來想想應該是 13” 升級 i7 和 16G 的規格太奇葩，用相同的價錢大家應該寧願去買新的或是二手 15” 吧。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;iPhone + Mac = ∞&lt;/p&gt;
+
+    &lt;p&gt;iPhone 和 Mac 的連動真的做得很澈底。剪貼簿、WiFi 密碼、自動 WiFi 熱點連線、網頁密碼、Safari 分頁、AirDrop…各種共享功能，讓你可以在手機和電腦之間無縫切換，真滴讚👍🏼&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;MacBook 16” 災情&lt;/p&gt;
+
+    &lt;p&gt;今年公司配了一台 16” MBP，結果遇上災情，只要接上電源使用就會 kernel panic 直接關機。
+ 上網搜尋，嘗試各種軟體解法都無效，最後更換主機板才解決這個問題。完全打破我對 Mac 系統穩定性的迷思。&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;
+    &lt;p&gt;要買 AppleCare&lt;/p&gt;
+
+    &lt;p&gt;這個月我自己的 13” MBP AppleCare 到期了，雖然使用上沒什麼問題，我還是帶它去給 Apple genius 檢查了一番。
+ 沒想到檢測後 Apple 免費幫我更換螢幕、電池、主機板含鍵盤，要價台幣四萬元。當初購買 AppleCare 花了8000多，覺得划算。&lt;/p&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name></name></author><category term="隨筆" /><category term="科技" /><summary type="html">2017年我買了人生的第一台 MacBook，到這個月剛好滿三年。 現在 macOS 已經完全取代 Windows 或 Ubuntu，成為我工作和日常主要使用的電腦。</summary></entry><entry><title type="html">感謝 #3</title><link href="https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3.html" rel="alternate" type="text/html" title="感謝 #3" /><published>2020-07-29T00:01:00+08:00</published><updated>2020-07-29T00:01:00+08:00</updated><id>https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3</id><content type="html" xml:base="https://chenhaoftk.dev/2020/07/29/%E6%84%9F%E8%AC%9D-3.html">&lt;p&gt;感謝公司的人體工學家具補助，感謝交通平安，感謝 @Pulu 和 @Machi 的陪伴。&lt;/p&gt;
 
 &lt;hr /&gt;
 
