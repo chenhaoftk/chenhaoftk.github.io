@@ -1,17 +1,25 @@
 <!DOCTYPE html>
 <html lang="en">
-  <!-- Beautiful Jekyll | MIT license | Copyright Dean Attali 2020 -->
-  <head>
+<!-- Beautiful Jekyll 5.0.0 | Copyright Dean Attali 2020 -->
+<head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-  <title>Tags</title>
-  
-  
-  
   
 
-  <link rel="alternate" type="application/rss+xml" title="chenhaoftk's Blog - 想到什麼就寫什麼。" href="https://chenhaoftk.dev/feed.xml">
+  
+
+  <title>Tags</title>
+
+  
+
+  <meta name="description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
+
+  
+
+  
+
+  <link rel="alternate" type="application/rss+xml" title="chenhaoftk's Blog" href="https://chenhaoftk.dev/feed.xml">
 
   
 
@@ -61,55 +69,44 @@
     
       <link rel="stylesheet" href="/assets/css/bootstrap-social.css">
     
-      <link rel="stylesheet" href="/assets/css/main.css">
+      <link rel="stylesheet" href="/assets/css/beautifuljekyll.css">
     
   
 
   
 
   
-
-  <!-- Facebook OpenGraph tags -->
+  
   
 
   
+
+  
+  <meta property="og:site_name" content="chenhaoftk's Blog">
   <meta property="og:title" content="Tags">
-  
-
-   
   <meta property="og:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
-  
 
+  
 
   
   <meta property="og:type" content="website">
-  
-
-  
   <meta property="og:url" content="https://chenhaoftk.dev/tags/">
   <link rel="canonical" href="https://chenhaoftk.dev/tags/">
   
-  
 
-  
-
-
-  <!-- Twitter summary cards -->
   
   <meta name="twitter:card" content="summary">
   
   <meta name="twitter:site" content="@">
   <meta name="twitter:creator" content="@">
 
-  
-  <meta name="twitter:title" content="Tags">
+  <meta property="twitter:title" content="Tags">
+  <meta property="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
+
   
 
   
-  <meta name="twitter:description" content="{% assign date_format = site.date_format | default: &quot;%B %-d, %Y&quot; %} {%- capture site_tags -%} {%- for tag in site.tags -%} {{- tag | first -}}{%- unless forloop.last -%},{%- endunless -%} {%- endfor -%} {%- endcapture -%} {%- assign tags_list = site_tags | split:',' | sort -%} {%- for tag...">
-  
 
-  
 
   
 
@@ -118,12 +115,12 @@
 </head>
 
 
-  <body>
-
-    
+<body>
 
   
-    <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom "><a class="navbar-brand" href="https://chenhaoftk.dev/">chenhaoftk's Blog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
+
+
+  <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-custom top-nav-regular"><a class="navbar-brand" href="https://chenhaoftk.dev/">chenhaoftk's Blog</a><button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main-navbar" aria-controls="main-navbar" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
 
@@ -142,7 +139,7 @@
 </nav>
 
 
-    <!-- TODO this file has become a mess, refactor it -->
+  <!-- TODO this file has become a mess, refactor it -->
 
 
 
@@ -158,9 +155,9 @@
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
         <div class="page-heading">
           <h1>Tags</h1>
-      
-      
-      
+          
+
+          
         </div>
       </div>
     </div>
@@ -172,9 +169,11 @@
 
 
 
-<div class="container-md" role="main">
+<div class=" container-md " role="main">
   <div class="row">
-    <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
+    <div class=" col-xl-8 offset-xl-2 col-lg-10 offset-lg-1 ">
+      
+
       <a href="#感謝日記" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;感謝日記&nbsp;(3)</a><a href="#科技" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;科技&nbsp;(1)</a><a href="#隨筆" class="btn btn-primary tag-btn"><i class="fas fa-tag" aria-hidden="true"></i>&nbsp;隨筆&nbsp;(3)</a><div id="full-tags-list"><h2 id="感謝日記" class="linked-section">
         <i class="fas fa-tag" aria-hidden="true"></i>
         &nbsp;感謝日記&nbsp;(3)
@@ -223,25 +222,21 @@
                     <time datetime="2020-07-19T16:13:53+08:00">July 19, 2020</time>
                 </div>
             </div></div></div>
+
       
+
+      
+
     </div>
   </div>
 </div>
 
 
-    <footer>
+  <footer>
   <div class="container-md beautiful-jekyll-footer">
     <div class="row">
       <div class="col-xl-8 offset-xl-2 col-lg-10 offset-lg-1">
       <ul class="list-inline text-center footer-links"><li class="list-inline-item">
-    <a href="/feed.xml" title="RSS">
-      <span class="fa-stack fa-lg" aria-hidden="true">
-        <i class="fas fa-circle fa-stack-2x"></i>
-        <i class="fas fa-rss fa-stack-1x fa-inverse"></i>
-      </span>
-      <span class="sr-only">RSS</span>
-    </a>
-  </li><li class="list-inline-item">
     <a href="mailto:chenhaoftk@gmail.com" title="Email me">
       <span class="fa-stack fa-lg" aria-hidden="true">
         <i class="fas fa-circle fa-stack-2x"></i>
@@ -254,7 +249,7 @@
       
       <p class="copyright text-muted">
       
-      2020
+      2022
 
       
 
@@ -262,19 +257,19 @@
       </p>
       <!-- Please don't remove this, keep my open source work credited :) -->
       <p class="theme-by text-muted">
-        Theme by
-        <a href="https://beautifuljekyll.com">beautiful-jekyll</a>
+        Powered by
+        <a href="https://beautifuljekyll.com">Beautiful Jekyll</a>
       </p>
       </div>
     </div>
   </div>
 </footer>
 
+
+  
   
     
-  
-    
-  <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
 
 
   
@@ -294,7 +289,7 @@
   
     <!-- doing something a bit funky here because I want to be careful not to include JQuery twice! -->
     
-      <script src="/assets/js/main.js"></script>
+      <script src="/assets/js/beautifuljekyll.js"></script>
     
   
 
@@ -303,6 +298,8 @@
 
 
 
-  
-  </body>
+
+
+
+</body>
 </html>
